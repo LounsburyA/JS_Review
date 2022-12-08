@@ -1,8 +1,12 @@
 // document.getElementById("count").innerText = 5
 
-let count = 0
+let count = 5 * 7
 
-console.log(count)
+let myAge = 39;
+
+
+console.log(count);
+console.log(myAge);
 
 
 // 1. Create a variable, myAge, and set its value to your age
