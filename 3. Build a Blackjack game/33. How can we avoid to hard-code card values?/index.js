@@ -10,7 +10,9 @@ let sumEl = document.getElementById("sum-el")
 let cardsEl = document.getElementById("cards-el")
 
 // Create a function, getRandomCard(), that always returns the number 5
-
+function getRandomCard() {
+    
+}
 
 function startGame() {
     renderGame()
@@ -37,7 +39,7 @@ function renderGame() {
 
 
 function newCard() {
-    let card = 6
+    let card = getRandomCard()
     sum += card
     cards.push(card)
     console.log(cards)
