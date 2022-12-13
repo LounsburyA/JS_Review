@@ -6,7 +6,8 @@ let message = ""
 let messageEl = document.getElementById("message-el")
 let sumEl = document.getElementById("sum-el")
 let cardsEl = document.getElementById("cards-el")
-
+// let playerName = "Andrew"
+// let playerChips = 145
 let player = {
     name: "Per",
     chips: 145
